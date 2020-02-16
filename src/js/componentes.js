@@ -60,7 +60,7 @@ divTodoList.addEventListener('click', (event)=>{
     const todoId = todoElemento.getAttribute('data-id');
     
 
-    console.log(nombreElemento);
+   // console.log(nombreElemento);
     // Procedimiento
     if ( nombreElemento.includes('input') )  { // Hizo click en el check
 
@@ -97,7 +97,7 @@ btnBorrarTodo.addEventListener('click', () => {
 
 
 ulFiltros.addEventListener('click', (event)=>{
-    console.log( event.target.text );
+    //console.log( event.target.text );
     // almacenamos este filtro en una variable
     const filtro = event.target.text;
 

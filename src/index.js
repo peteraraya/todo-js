@@ -24,6 +24,6 @@ export const todoList = new TodoList();
 
 //  todoList.todos[0].imprimirClase();
 
-console.log('todo : ', todoList.todos )
+//console.log('todo : ', todoList.todos )
 
 
